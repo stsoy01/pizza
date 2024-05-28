@@ -1,4 +1,8 @@
 (function () {
-  const overworld = new Overworld({ config: { element: true } })
+  const overworld = new Overworld({
+    config: {
+      element: true
+    }
+  })
   overworld.init()
 })()
